@@ -1,1 +1,2 @@
 # NihareekaCollege
+# NihareekaCollegePractical
