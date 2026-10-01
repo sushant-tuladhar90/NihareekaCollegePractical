@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Login Title -->
+
+    <TextView
+        android:id="@+id/tvTitle"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Login"
+        android:textSize="28sp"
+        android:textStyle="bold"
+
+        android:gravity="center"
+
+        android:layout_marginBottom="30dp"/>
+
+
+    <!-- Username Label -->
+
+    <TextView
+        android:id="@+id/tvUsername"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Username"
+        android:textSize="18sp"/>
+
+
+    <!-- Username Input -->
+
+    <EditText
+        android:id="@+id/etUsername"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter username"
+        android:inputType="text"/>
+
+
+    <!-- Password Label -->
+
+    <TextView
+        android:id="@+id/tvPassword"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Password"
+        android:textSize="18sp"
+
+        android:layout_marginTop="15dp"/>
+
+
+    <!-- Password Input -->
+
+    <EditText
+        android:id="@+id/etPassword"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter password"
+        android:inputType="textPassword"/>
+
+
+    <!-- Login Button -->
+
+    <Button
+        android:id="@+id/btnLogin"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="LOGIN"
+
+        android:layout_gravity="center"
+
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+
+<!--android:orientation="horizontal">-->
+
+<!--<TextView-->
+<!--    android:id="@+id/tvOne"-->
+
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="match_parent"-->
+
+<!--    android:layout_weight="1"-->
+
+<!--    android:gravity="center"-->
+
+<!--    android:text="View 1"-->
+<!--    android:textSize="20sp"/>-->
+
+
+<!--<TextView-->
+<!--    android:id="@+id/tvTwo"-->
+
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="match_parent"-->
+
+<!--    android:layout_weight="2"-->
+
+<!--    android:gravity="center"-->
+
+<!--    android:text="View 2"-->
+<!--    android:textSize="20sp"/>-->
+
+<!--</LinearLayout>-->

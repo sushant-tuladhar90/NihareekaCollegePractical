@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp">
+
+
+    <!-- Title -->
+
+    <TextView
+        android:id="@+id/tvTitle"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Student Registration"
+
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        android:layout_centerHorizontal="true"/>
+
+
+    <!-- Name -->
+
+    <EditText
+        android:id="@+id/etName"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter Name"
+        android:inputType="text"
+
+        android:layout_below="@id/tvTitle"
+
+        android:layout_marginTop="30dp"/>
+
+
+    <!-- Email -->
+
+    <EditText
+        android:id="@+id/etEmail"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+
+        android:layout_below="@id/etName"
+
+        android:layout_marginTop="15dp"/>
+
+
+    <!-- Phone -->
+
+    <EditText
+        android:id="@+id/etPhone"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter Phone"
+        android:inputType="phone"
+
+        android:layout_below="@id/etEmail"
+
+        android:layout_marginTop="15dp"/>
+
+
+    <!-- Semester -->
+
+    <Spinner
+        android:id="@+id/spinnerSemester"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/etPhone"
+
+        android:layout_marginTop="15dp"
+
+        android:entries="@array/semesters"/>
+
+
+    <!-- Register Button -->
+
+    <Button
+        android:id="@+id/btnRegister"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="REGISTER"
+
+        android:layout_below="@id/spinnerSemester"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="25dp"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+
+<!--android:padding="20dp">-->
+
+
+<!--&lt;!&ndash; Title &ndash;&gt;-->
+
+<!--<TextView-->
+<!--    android:id="@+id/tvTitle"-->
+
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+
+<!--    android:text="Student Registration"-->
+
+<!--    android:textSize="25sp"-->
+<!--    android:textStyle="bold"-->
+
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+
+<!--    app:layout_constraintEnd_toEndOf="parent"/>-->
+
+
+<!--&lt;!&ndash; Name &ndash;&gt;-->
+
+<!--<EditText-->
+<!--    android:id="@+id/etName"-->
+
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+
+<!--    android:hint="Enter Name"-->
+
+<!--    app:layout_constraintTop_toBottomOf="@id/tvTitle"-->
+
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--    android:layout_marginTop="30dp"/>-->
+
+
+<!--&lt;!&ndash; Email &ndash;&gt;-->
+
+<!--<EditText-->
+<!--    android:id="@+id/etEmail"-->
+
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+
+<!--    android:hint="Enter Email"-->
+
+<!--    android:inputType="textEmailAddress"-->
+
+<!--    app:layout_constraintTop_toBottomOf="@id/etName"-->
+
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--    android:layout_marginTop="15dp"/>-->
+
+
+<!--&lt;!&ndash; Phone &ndash;&gt;-->
+
+<!--<EditText-->
+<!--    android:id="@+id/etPhone"-->
+
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+
+<!--    android:hint="Enter Phone"-->
+
+<!--    android:inputType="phone"-->
+
+<!--    app:layout_constraintTop_toBottomOf="@id/etEmail"-->
+
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--    android:layout_marginTop="15dp"/>-->
+
+
+<!--&lt;!&ndash; Register Button &ndash;&gt;-->
+
+<!--<Button-->
+<!--    android:id="@+id/btnRegister"-->
+
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+
+<!--    android:text="REGISTER"-->
+
+<!--    app:layout_constraintTop_toBottomOf="@id/etPhone"-->
+
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--    android:layout_marginTop="25dp"/>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<AbsoluteLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent">-->
+
+<!--<TextView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+
+<!--    android:text="Hello"-->
+
+<!--    android:textSize="20sp"-->
+
+<!--    android:layout_x="100dp"-->
+<!--    android:layout_y="50dp"/>-->
+
+<!--<Button-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+
+<!--    android:text="Click"-->
+
+<!--    android:layout_x="100dp"-->
+<!--    android:layout_y="120dp"/>-->
+
+<!--</AbsoluteLayout>-->
